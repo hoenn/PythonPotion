@@ -1,0 +1,1 @@
+Endless Scripts can be stopped by pressing Ctrl+C
