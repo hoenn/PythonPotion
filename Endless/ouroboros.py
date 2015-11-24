@@ -10,12 +10,10 @@ for bstick in blinkstick.find_all():
             bstick.set_color(channel =3, index = (x-2)%8, name="blue")
             bstick.set_color(channel =3, index = (x-3)%8, name="blue")
             bstick.set_color(channel =3, index = (x-4)%8, name="blue")
-            #empty 
+            #clear previous last light 
             bstick.set_color(channel =3, index = (x-5)%8)
-            bstick.set_color(channel =3, index = (x-6)%8)
-            bstick.set_color(channel =3, index = (x-7)%8)
             #head
-            bstick.set_color(channel =3, index = x%8, name="green")
-            sleep(0.05)
+            bstick.set_color(channel =3, index = x, name="green")
+            sleep(0.1)
     except KeyboardInterrupt:
         pass
