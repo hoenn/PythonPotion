@@ -1,6 +1,6 @@
 from blinkstick import blinkstick
 from time import sleep
- 
+#This is not perfectly timed so it will fail after many iterations 
 for bstick in blinkstick.find_all():
     #clear lights
     bstick.turn_off()
