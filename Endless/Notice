@@ -1,0 +1,4 @@
+The current library for using the blinkstick square doesn't support changing all 8 LEDs at once currently
+It also doesn't really support morphing that takes longer than about 2 minutes, sending morph
+a very large parameter yields incorrect results. These bugs have been reported to the developer
+who is working to fix them.
